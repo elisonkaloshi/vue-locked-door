@@ -9,6 +9,10 @@ https://www.npmjs.com/package/vue-locked-door
 ## Usage
 
 ```
+import HasPermission from 'vue-locked-door/src/HasPermission';
+```
+
+```
 <HasPermission :all-permissions="['view_user', 'edit_user']" :permissions-to-be-checked="['view_user']" :permissions-in-storage="true" :permissions-in-storage-key="'keyOfPermissions'">
   <div>hello</div> 
 </HasPermission>
