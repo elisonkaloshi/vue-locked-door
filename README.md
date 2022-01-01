@@ -13,7 +13,7 @@ import HasPermission from 'vue-locked-door/src/HasPermission';
 ```
 
 ```
-<HasPermission :all-permissions="['view_user', 'edit_user']" :permissions-to-be-checked="['view_user']" :permissions-in-storage="true" :permissions-in-storage-key="'keyOfPermissions'">
+<HasPermission :all-permissions="['view_user', 'edit_user']" :permissions-to-be-checked="['view_user']" :permissions-in-storage="true" :permissions-in-storage-key="'key_of_permissions'">
   <div>hello</div> 
 </HasPermission>
 ```
@@ -26,7 +26,7 @@ import HasPermission from 'vue-locked-door/src/HasPermission';
 
 `3. :permissions-in-storage="true" -> if this is enabled it will by default search on the storage of the local machine for the permissions | this property is not required`
 
-`4. :permissions-in-storage-key="true" -> if the permissions-in-storage is set to true, the package will search for the key given in this property in the local storage, 
+`4. :permissions-in-storage-key="key_of_permissions" -> if the permissions-in-storage is set to true, the package will search for the key given in this property in the local storage, 
 and if in the local storage this key has an array with permissions the package will make a check of the actual permissions with these permissions in the local storage
 | this propery is not required`
 
