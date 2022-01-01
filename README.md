@@ -1,6 +1,11 @@
 # vue-locked-door
 A simple VueJs package that manages permissions!
 
+# Install via npm
+https://www.npmjs.com/package/vue-locked-door
+
+`npm i vue-locked-door`
+
 ## Usage
 
 ```
